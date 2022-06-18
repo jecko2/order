@@ -1,0 +1,415 @@
+.tabs nav a span {
+    vertical-align: middle;
+    font-size: 19px;
+    font-family: nova-regular
+}
+
+#order_form::-webkit-input-placeholder {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 14px;
+    color: #9e9e9e
+}
+
+#order_form::-moz-placeholder {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 14px;
+    color: #9e9e9e
+}
+
+#order_form:-ms-input-placeholder,
+#order_form::-ms-input-placeholder {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 14px;
+    color: #9e9e9e
+}
+
+#order_form::placeholder {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 14px;
+    color: #9e9e9e
+}
+
+select.error {
+    color: #74777b;
+    font-family: inherit
+}
+
+.tabs-style-underline nav li:first-child a {
+    border-left: 0
+}
+
+.tabs-style-underline nav a {
+    padding: .75em 0;
+    border-left: 1px solid #c8c8c8;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    text-decoration: none
+}
+
+.content-wrap {
+    position: relative;
+    margin-top: 20px;
+    padding: 45px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, .12);
+    text-align: left
+}
+
+.content-wrap label {
+    font-size: 17px;
+    margin: 5px 15px;
+    width: 150px;
+    color: #000;
+    float: left
+}
+
+.content-wrap input,
+.content-wrap select {
+    border: 1px solid #c8c8c8;
+    border-radius: 0;
+    padding: 10px;
+    font-size: 14px;
+    width: 350px;
+    margin-left: 15px;
+    -webkit-appearance: none;
+    position: relative;
+    transition: .2s
+}
+
+.content-wrap input:hover,
+.content-wrap select:hover {
+    border-color: #00aeef
+}
+
+.content-wrap select {
+    cursor: pointer;
+    background-image: url(../images/arrow-down.png);
+    background-size: 3%;
+    background-repeat: no-repeat;
+    background-position: 96%
+}
+
+.select2.select2-container {
+    transition: .2s
+}
+
+select.error~.select2 {
+    border: dashed 1px #ff4500 !important
+}
+
+.content-wrap input:focus,
+.content-wrap select:focus,
+.content-wrap textarea:focus,
+.select2.select2-container:focus {
+    border: 1px solid #00aeef
+}
+
+.content-wrap input,
+.content-wrap textarea,
+.grey-highlight,
+.grey-highlight+.error+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.grey-highlight+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #000 !important;
+    font-weight: 500
+}
+
+.margin-bal {
+    margin: 8px 0;
+    clear: both
+}
+
+.content-wrap section {
+    text-align: left
+}
+
+.content-wrap input:focus,
+.content-wrap select:focus,
+.content-wrap textarea:focus {
+    outline: 0
+}
+
+.mt-10 {
+    margin-top: 10px
+}
+
+.mt-100 {
+    margin-top: 100px
+}
+
+.order-btn {
+    text-align: right !important;
+    background: linear-gradient(to bottom, #00aeef 0, #00aeef 100%);
+    color: #fff !important;
+    font-size: 18px;
+    text-decoration: none !important;
+    border: 0
+}
+
+.order-btn:hover {
+    background: #000d17 linear-gradient(to bottom, #0000004a 5%, #00aeef 100%) 0 0 !important
+}
+
+.content-wrap textarea {
+    border: 1px solid #c8c8c8;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    width: 350px;
+    margin-left: 15px;
+    -webkit-appearance: none
+}
+
+.content-wrap input[type=file] {
+    display: inline-block
+}
+
+.account-left {
+    float: left;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 30px 20px 0;
+    background: #fff;
+    margin-bottom: 20px
+}
+
+.account-left ul {
+    float: left;
+    width: 100%;
+    list-style: none;
+    padding: 0
+}
+
+.account-left ul li {
+    float: left;
+    margin-bottom: 0;
+    padding: 10px;
+    width: 100%
+}
+
+.account-left span {
+    margin-right: 15px;
+    font-size: 16px;
+    color: #000;
+    float: left;
+    word-break: break-all
+}
+
+input#other_due_date,
+select#hours {
+    background-repeat: no-repeat;
+    padding-left: 35px
+}
+
+input#other_due_date {
+    float: left;
+    display: inline-block;
+    width: 168px;
+    background-image: url(../images/calender-icon2.png);
+    background-position: 10px 12px;
+    background-size: 15px
+}
+
+select#hours {
+    width: 170px;
+    margin-top: 0;
+    background-image: url(../images/clock.png), url(../images/arrow-down.png);
+    background-position: 10px 12px, 91% 15px;
+    background-size: 15px, 10px;
+    background-color: transparent;
+}
+
+
+.icon {
+    position: relative
+}
+
+.icon img {
+    margin: auto
+}
+
+.icon div,
+.icon span {
+    font-size: 15px;
+    font-weight: 400
+}
+
+.step {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 5px;
+    margin: 0 10px
+}
+
+@media (max-width:767px) {
+    .xs-clr {
+        clear: both
+    }
+
+    .af-blue-navbar .menu .navbar-nav li:last-of-type {
+        margin-bottom: 60px
+    }
+}
+
+@media (max-width:627px) {
+
+    .content-wrap>input,
+    .content-wrap>select {
+        width: 90%
+    }
+
+    .content-wrap label,
+    .iti {
+        width: 100%
+    }
+
+    input#other_due_date {
+        float: left;
+        margin-bottom: 10px;
+        width: 350px;
+    }
+
+    select#hours {
+        float: left;
+        background-position: 10px 12px, 95% 15px;
+        margin-top: 0;
+        width: 350px;
+    }
+
+    .icon div,
+    .icon span {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width:490px) {
+
+    .content-wrap textarea,
+    .content-wrap>input,
+    .content-wrap>select {
+        width: 90%
+    }
+
+    .account-left {
+        width: 100% !important
+    }
+
+    .content-wrap {
+        padding: 20px 10px
+    }
+
+    .iti {
+        width: 100%
+    }
+}
+
+.edit-section {
+    float: left
+}
+
+.check-btn {
+    float: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+li.completed a span {
+    color: #fff;
+    display: none
+}
+
+li.completed .icon-box::before {
+    content: ""
+}
+
+.notesection {
+    padding-top: 15px
+}
+
+.notesection strong {
+    padding: 10px 0;
+    font-size: 18px;
+    color: #ff4500
+}
+
+.notesection ol {
+    padding: 10px 25px
+}
+
+.notesection ol li {
+    font-size: 15px
+}
+
+form#order_form label {
+    color: #000
+}
+
+@media (max-width:1199px) {
+    .check-btn {
+        float: left
+    }
+}
+
+@media (max-width:600px) {
+    .check-btn {
+        float: left;
+        margin-left: 0;
+        width: 100%
+    }
+
+    .edit-section {
+        width: 100%
+    }
+}
+
+@media (max-width:1024px) {
+    .check-btn {
+        float: left;
+        margin-left: 0
+    }
+
+    .notesection {
+        padding-top: 15px;
+        float: left;
+        width: 100%
+    }
+
+    .order-btn {
+        padding: 10px
+    }
+}
+
+@media(max-width:767px) {
+    .edit-section {
+        width: 100%
+    }
+}
+
+@media (max-width:597px) {
+    .top-list li {
+        width: 49%;
+        margin-right: 0;
+        padding: 10px 0
+    }
+
+    .top-list li.top-list-active:first-child {
+        padding: 10px
+    }
+
+    .top-list span {
+        font-size: 14px
+    }
+}
+
+@media (max-width:320px) {
+    .top-list li {
+        width: 100%
+    }
+}
